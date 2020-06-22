@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name           SNAP
+// @author         bajdai
+// @updateURL      https://github.com/igorbajda/snap/raw/master/snap.user.js
+// @downloadURL    https://github.com/igorbajda/snap/raw/master/snap.user.js
+// @include        https://browse-query-editor-eu.aka.amazon.com/*
+// @include        https://browse-query-editor-eu-dub.dub.proxy.amazon.com/*
+// @version        0.8
+// ==/UserScript==
+
 //Adding  picture
 document.querySelector("#redux-app > div > div.panel.panel-primary.asin-discovery-form > div.panel-collapse.collapse.in > div > div > div > div:nth-child(2) > div:nth-child(1) > div.col-xs-5").innerHTML = `
 <div class="Button">
